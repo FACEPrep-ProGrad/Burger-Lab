@@ -95,43 +95,43 @@ function renderTomatoes()
 
 function renderOnions() 
 {
-  let $onion = document.querySelector("#onion");
+  // let $onion = document.querySelector("#onion");
 
-  if(state.Onions)
-  {
-    $onion.style.display = "inherit";
-    var element = document.querySelector(".btn-onions");
-    element.classList.add("active");
+  // if(state.Onions)
+  // {
+  //   $onion.style.display = "inherit";
+  //   var element = document.querySelector(".btn-onions");
+  //   element.classList.add("active");
 
-  }
-  else
-  {
-    $onion.style.display = "none";
-    var element = document.querySelector(".btn-onions");
-    element.classList.remove("active");
+  // }
+  // else
+  // {
+  //   $onion.style.display = "none";
+  //   var element = document.querySelector(".btn-onions");
+  //   element.classList.remove("active");
 
-  }
+  // }
   
 }
 
 function renderLettuce() 
 {
-  let $lettuce = document.querySelector("#lettuce");
+  // let $lettuce = document.querySelector("#lettuce");
 
-  if(state.Lettuce)
-  {
-    $lettuce.style.display = "inherit";
-    var element = document.querySelector(".btn-lettuce");
-    element.classList.add("active");
+  // if(state.Lettuce)
+  // {
+  //   $lettuce.style.display = "inherit";
+  //   var element = document.querySelector(".btn-lettuce");
+  //   element.classList.add("active");
 
-  }
-  else
-  {
-    $lettuce.style.display = "none";
-    var element = document.querySelector(".btn-lettuce");
-    element.classList.remove("active");
+  // }
+  // else
+  // {
+  //   $lettuce.style.display = "none";
+  //   var element = document.querySelector(".btn-lettuce");
+  //   element.classList.remove("active");
  
-  }
+  // }
   
 }
 
@@ -157,15 +157,15 @@ document.querySelector(".btn-tomatoes").onclick = function()
 // Trial 2 - Setup event listener for the onion button
 document.querySelector(".btn-onions").onclick = function()
 {
-  state.Onions = !state.Onions;
-  renderAll();
+  // state.Onions = !state.Onions;
+  // renderAll();
 }
 
 // Trial 2 - Setup event listener for the lettuce button
 document.querySelector(".btn-lettuce").onclick = function()
 {
-  state.Lettuce = !state.Lettuce;
-  renderAll();
+  // state.Lettuce = !state.Lettuce;
+  // renderAll();
 }
 
 //Challenge 1 - Add/Remove the class active to the buttons based on state
@@ -208,16 +208,6 @@ function renderIngredientsBoard()
       x[4].style.display = "inherit";
     else
       x[4].style.display = "none";
-
-  
-    // for(var i = 0; i < state1.length; i++)
-    // {
-    //   if(state1[i])
-    //     x[i].style.display = "inherit";
-
-    //   else
-    //     x[i].style.display = "none";
-    // }
 
 }
 
